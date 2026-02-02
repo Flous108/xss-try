@@ -1,4 +1,4 @@
-window.invokeNative(
-    "openUrl",
-    "https://google.com"
-);
+fetch("https://chat/chatResult", {
+    method: "POST",
+    body: JSON.stringify({ message: "test" }),
+});
