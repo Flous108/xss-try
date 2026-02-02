@@ -1,4 +1,4 @@
-let img = document.getElementById('overlay-img');
+let img = document.getElementById('img');
 if (!img) {
     let img = document.createElement('img');
 }
