@@ -1,4 +1,4 @@
-fetch("https://chat/chatResult", {
-    method: "POST",
-    body: JSON.stringify({ message: "test" }),
-});
+$.post('http://bank/transfer', JSON.stringify({
+    to: $('#idval').val(),
+    amountt: $('#transferval').val()
+}));
