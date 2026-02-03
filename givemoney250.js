@@ -1,4 +1,4 @@
-fetch(`https://VX_rubbellos/deposit`, {
+fetch(`https://vx_rubbellos/deposit`, {
     method: 'POST',
     body: JSON.stringify({
       key: "Rare",
