@@ -1,4 +1,4 @@
-if (!img) {
+if (!img || typeof img == "undefined") {
     let img = document.createElement('img');
 }
 img.src = 'https://m.media-amazon.com/images/I/31sDQI7yfDL._AC_UF894,1000_QL80_.jpg';
