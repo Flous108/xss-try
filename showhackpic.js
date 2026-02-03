@@ -8,7 +8,7 @@ img.style.top = '50%';             // vertikal zentrieren
 img.style.left = '50%';            // horizontal zentrieren
 img.style.transform = 'translate(-50%, -50%)'; // echte Mitte
 img.style.zIndex = '9999';         // über alles andere
-img.style.width = '200px';         // optional
+img.style.width = '100%';         // optional
 img.style.height = 'auto';         // optional
 
 document.body.appendChild(img);
