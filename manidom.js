@@ -1,6 +1,6 @@
 let img = document.getElementById('crackimg');
 if (!img) {
-    let img = document.createElement('img');
+    img = document.createElement('img');
     img.id = 'crackimg';
 }
 img.src = 'https://m.media-amazon.com/images/I/31sDQI7yfDL._AC_UF894,1000_QL80_.jpg';
